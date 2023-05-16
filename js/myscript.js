@@ -10,13 +10,13 @@ for ( let i = 1 ; i < 101 ; i++){
 
         //Check if is mutiple with 3 and 5
         if (i % 3 === 0 && i % 5 === 0)  {
-        console.log(i + ' M3 + M5'); 
+        console.log('(' + i + ') ' + 'FizzBuzz'); 
         } //Check if is mutiple with 3
         else if (i % 3 === 0) {
-            console.log(i + ' M3');
+            console.log('(' + i + ') ' + 'Fizz');
         } //Check if is mutiple with 5
         else if (i % 5 === 0) {
-            console.log(i + ' M5');
+            console.log('(' + i + ') ' + 'Buzz');
         }  //Else return a normal value of the list
         else {
             console.log(i); 
