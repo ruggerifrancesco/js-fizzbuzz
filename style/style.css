@@ -32,6 +32,10 @@ input, button, select{
     background-color: azure;
 }
 
+span {
+    display: block;
+}
+
 .italic-font{
     font-style: italic;
 }
