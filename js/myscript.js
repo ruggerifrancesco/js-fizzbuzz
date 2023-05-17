@@ -5,7 +5,7 @@ const containerBlocks = document.getElementById('result-container');
 for ( let i = 1 ; i < 101 ; i++){
 
     const multipleBlock = document.createElement('span');
-    const fizzBuzz = 'FizzBuzz';
+    const fizzBuzz = 'Fizz Buzz';
     const fizz = 'Fizz';
     const buzz = 'Buzz';
 
