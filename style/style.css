@@ -51,6 +51,7 @@ span {
         align-items: center;
         height: 3rem;
         border-radius: 0.5rem;
+        padding: 0 0.5rem;
     }
     .box-magenta {
         background-color: magenta;
