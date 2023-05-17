@@ -34,7 +34,43 @@ input, button, select{
 
 span {
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
+
+#result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .box-green {
+        background-color: greenyellow;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+    }
+    .box-magenta {
+        background-color: magenta;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+    }
+    .box-red {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+    }
+
 
 .italic-font{
     font-style: italic;
